@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #000;
+}
+
+/* 리셋 css 끝 */
+/* 폰트들 */
+@font-face { font-family: 'HeirofLightRegular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 빛의계승자체 Regular */
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css); .nanummyeongjo * { font-family: 'Nanum Myeongjo', serif; }
+/* 나눔명조 Regular */
+/* 여러 설정 css들 */
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.flex-aline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+.gold-text{
+    color: #ffd200;
+}
+.white-text{
+    color: #fff;
+}
+/* 여러 설정 css들 */
+
+/* 공용 css */
+.sec01-content,.sec02-content{
+    background-color: #0c2651;
+}
+.Heiro-font{
+    font-family: 'HeirofLightRegular';
+}
+.Nanum-Myeongjo-font{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/* 공용 css */
+
+/* -----section01 start----- */
+#section01{
+    width: 100%;
+    height: auto;
+}
+
+.poster{
+    width: 100%;
+    margin: 0 auto;
+}
+.text-logo{
+    width: 90%;
+    top: 60%;
+    margin: 0 auto;
+}
+.sec01-title{
+    font-size: 8rem;
+}
+.sec01-sub{
+    font-size: 4rem;
+}
+
+/* -----section01 end----- */
+/* -----section02 start----- */
+#section02{
+    width: 100%;
+    height: 100vh;
+}
+
+.sec02-text-box{
+    width: 100%;
+    height: auto;
+}
+.text-box{
+    width: 95%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    top: 10%;
+}
+.sec02-title{
+    top: 20%;
+    z-index: 2;
+    font-size: 6rem;
+}
+.sec02-p{
+    width: 80%;
+    top: 40%;
+    z-index: 2;
+    font-size: 3rem;
+}
+
+/* -----section02 end----- */
