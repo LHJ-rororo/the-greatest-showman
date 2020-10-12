@@ -24,7 +24,7 @@
     <title>위대한 쇼맨</title>
 </head>
 <body>
-    <section id="section01">
+    <section id="section01" class="relative">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 sec01-content">
@@ -32,7 +32,7 @@
                     <div class="sec01-text-box flex-aline flex-column">
                         <img src="images/logo.png" 
                         alt="위대한쇼맨텍스트로고" class="text-logo absolute">
-                        <h1 class="text-center gold-text sec01-title Heiro-font">"THIS IS ME!</h1>
+                        <h1 class="text-center gold-text sec01-title Heiro-font">"THIS IS ME!"</h1>
                         <h1 class="text-center white-text sec01-sub Heiro-font">우리는 누구나 특별하다!</h1>
                     </div>
                     
@@ -41,34 +41,48 @@
         </div>
     </section>
 
-    <section id="section02">
+
+    <section id="section02" class="relative">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 sec02-content relative">
-                    <img src="images/sec02-bg.jpg" alt="섹션2번배경" class="poster">
+                <div class="col-sm-12 sec02-content sec02-bg">
+                    <!-- <img src="images/sec02-bg.jpg" alt="섹션2번배경" class="poster"> -->
 
-                    <div class="sec02-text-box flex-aline flex-column">
-                        <div class="text-box absolute"></div>
-                        <h1 class="sec02-title white-text  absolute Heiro-font">SYNOPSIS</h1>
-                        <p class="sec02-p white-text text-center absolute Nanum-Myeongjo-font">쇼 비즈니스의 창시자이자, 꿈의 무대로 전세계를 매료시킨 남자
-                            ‘바넘’의 이야기에서 영감을 받아 탄생한 오리지널 뮤지컬 영화 <위대한 쇼맨>.<br>
-                            <레미제라블> 이후 다시 뮤지컬 영화로 돌아온 
-                           휴 잭맨부터 잭 에프론, 미셸 윌리엄스, 레베카 퍼거슨, 젠다야까지
-                            할리우드 최고의 배우들이 합류해 환상적인 앙상블을 선보인다.</p>
+                    <div class="sec02-text-box flex-aline">
+                        <div class="text-box absolute">
+                            <h1 class="sec02-title white-text text-center Heiro-font">SYNOPSIS</h1>
+                            <p class="sec02-p white-text text-center Nanum-Myeongjo-font">쇼 비즈니스의 창시자이자, 꿈의 무대로 전세계를 매료시킨 남자
+                                ‘바넘’의 이야기에서 영감을 받아 탄생한 오리지널 뮤지컬 영화 <위대한 쇼맨>.<br>
+                                <레미제라블> 이후 다시 뮤지컬 영화로 돌아온 
+                            휴 잭맨부터 잭 에프론, 미셸 윌리엄스, 레베카 퍼거슨, 젠다야까지
+                                할리우드 최고의 배우들이 합류해 환상적인 앙상블을 선보인다.</p>
+                                <div class="sec02-img">
+                                <img src="images/sang01.png" alt="">
+                                <img src="images/sang02.png" alt="">
+                                <img src="images/sang03.png" alt="">
+                                <img src="images/sang04.png" alt="">  
+                                </div>
+
+                        </div>
+
                     </div>
-                
-
                 </div>
+                <div class="ss"></div>
             </div>
         </div>
     </section>
 
-    <section id="section03">
+
+    <section id="section03" class="relative">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 sec03-bg">
+                <div class="col-sm-12 sec03-bg space-01">
                     <h1 class="sec02-title white-text  Heiro-font text-center">TRAILER</h1>
-                    <iframe width="1100" height="720" src="https://www.youtube.com/embed/cnIOq6P8PUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-bg">
+                        <video controls autoplay muted loop id="video">
+                            <source src="images/gs_video.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="sns-btn flex-aline">
                     <button class="sns twiter">
                         <i class="xi-twitter"></i>
@@ -88,5 +102,17 @@
             </div>
         </div>
     </section>
+
+    <section id="section04">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 space-02">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
 </body>
 </html>
